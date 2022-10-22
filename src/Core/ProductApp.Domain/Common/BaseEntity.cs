@@ -8,7 +8,7 @@ namespace ProductApp.Domain.Common
 {
     public class BaseEntity
     {
-        public Guid ID { get; set; }
+        public Guid Id { get; set; }
         public DateTime CreatedDate { get; set; }
         public string CreatedBy { get; set; }
         public DateTime ModifiedDate { get; set; }
