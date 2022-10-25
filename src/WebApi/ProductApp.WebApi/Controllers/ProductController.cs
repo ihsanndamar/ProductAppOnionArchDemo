@@ -16,9 +16,11 @@ namespace ProductApp.WebApi.Controllers
 
 
         [HttpGet]
-        public Task<IActionResult> Get()
+        public async Task<IActionResult> Get()
         {
-            return Task.FromResult<IActionResult>(Ok());
+            var allList = await _productRepository.GetAllAsync();
+            return Ok(allList);
         }
+
     }
 }
