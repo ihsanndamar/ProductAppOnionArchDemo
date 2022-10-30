@@ -17,8 +17,4 @@
     <ProjectReference Include="..\ProductApp.Domain\ProductApp.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Commands\" />
-  </ItemGroup>
-
 </Project>
