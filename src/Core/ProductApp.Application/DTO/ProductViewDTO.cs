@@ -11,6 +11,8 @@ namespace ProductApp.Application.DTO
         public Guid Id { get; set; }
         public String Name { get; set; }
         //new changes
+        //a new change
+        // haha
 
     }
 }
